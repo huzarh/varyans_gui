@@ -37,11 +37,11 @@ export const metadata: Metadata = {
    openGraph: {
     title: "Teknofest Uluslar arası yarışması.",
     description: "1 gün devam ediyor 2. uçuş hakımızı kullanıyoruz. Sıra almaya gitti.",
-    url: "https://i.ibb.co/q3Mgm9Hz/image.jpg",
+    url: "https://master.d3higxy9rg5x8b.amplifyapp.com",
     siteName: "Modern Profile",
     images: [
       {
-        url: "https://i.ibb.co/q3Mgm9Hz/image.jpg",
+        url: "https://master.d3higxy9rg5x8b.amplifyapp.com/img/photos/image.png",
         width: 330,
         height: 190,
         alt: "Khuzair Askyer - Mekanik Mühendis",
@@ -54,13 +54,16 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Teknofest Uluslar arası yarışması.",
     description: "1 gün devam ediyor 2. uçuş hakımızı kullanıyoruz. Sıra almaya gitti.",
-    images: ["https://i.ibb.co/q3Mgm9Hz/image.jpg"],
+    images: ["https://master.d3higxy9rg5x8b.amplifyapp.com/img/photos/image.png"],
   },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      </head>
       <body className={manrope.className}>
         <ThemeProvider>{children}</ThemeProvider>
 
