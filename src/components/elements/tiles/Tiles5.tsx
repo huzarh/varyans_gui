@@ -10,7 +10,7 @@ export default function Tiles5() {
       <div className="overlap-grid overlap-grid-2">
         <div className="item">
             <figure className="rounded shadow">
-              <img src={`/img/avatars/ucak.jpeg`} srcSet={`/img/photos/about2@2x.jpg 2x`} alt="Team member" />
+              <img src={`/img/avatars/ucak.jpeg`} srcSet={`/img/avatars/ucak.jpeg`} alt="Team member" />
             </figure>
           </div>
         <div className="item">
